@@ -7,14 +7,14 @@
 ## 目录
 
 1.  [🤖 AI Agents & 自主任务执行](#agents)
-2.  [🎬 视频生成与编辑](#video)
+2.  [💻 软件开发与代码助手](#coding)
 3.  [🧱 3D 建模与资产](#3d)
-4.  [💻 软件开发与代码助手](#coding)
-5.  [🎨 UI/UX 设计与前端](#uiux)
-6.  [🎵 音乐与音频创作](#music)
-7.  [🖼️ 图像生成与编辑](#image)
-8.  [💼 生产力与全能助手](#productivity)
-9.  [📈 营销与内容创作](#marketing)
+4.  [🎬 视频生成与编辑](#video)
+5.  [🧠 全能助手与大模型](#llm)
+6.  [🎨 UI/UX 设计与前端](#uiux)
+7.  [🎵 音乐与音频创作](#music)
+8.  [🖼️ 图像生成与编辑](#image)
+9.  [💼 生产力与办公效率](#productivity)
 10. [📚 教育与科研](#research)
 11. [🎮 游戏开发](#game)
 12. [⚖️ 法律、医疗与垂直行业](#vertical)
@@ -24,61 +24,69 @@
 <a name="agents"></a>
 ## 1. 🤖 AI Agents & 自主任务执行
 
-| 工具名称 | 核心特点 / 简介 | 典型使用场景 | 官网链接 |
-| :--- | :--- | :--- | :--- |
-| **AutoGPT (AutoGRM)** | **自主 Agent 先驱**。能够根据目标自动拆解任务、搜索互联网并执行操作，支持长期记忆。 | 自动化市场调研、自主编码、复杂任务规划。 | [Link](https://auto-gpt.ai/) |
-| **Microsoft AutoGen** | 微软出品的多智能体对话框架，支持多个 Agent 协作完成复杂任务。 | 复杂软件工程、多角色模拟、自动化工作流。 | [Link](https://microsoft.github.io/autogen/) |
-| **CrewAI** | 专注于角色扮演的协同 Agent 框架，让多个 Agent 像团队一样工作。 | 内容营销团队模拟、自动化业务流程。 | [Link](https://www.crewai.com/) |
-| **MetaGPT** | **国产顶尖 Agent 框架**。将软件公司的工作流注入 Agent，实现一句话生成整个项目。 | 自动化软件开发、需求分析、文档生成。 | [Link](https://github.com/geekan/MetaGPT) |
-| **BabyAGI** | 轻量级的自主任务管理 Agent，专注于任务排序和持续执行。 | 个人任务管理、简单的自动化调研。 | [Link](https://github.com/yoheinakajima/babyagi) |
-| **GPT Engineer** | 通过自然语言描述直接生成整个代码库，并支持后续迭代。 | 快速构建 MVP、自动化脚手架生成。 | [Link](https://gptengineer.app/) |
-| **ChatDev** | 虚拟 AI 软件公司，通过多个 Agent（CEO, CPO, CTO 等）协作开发软件。 | 趣味性软件开发、多智能体协作研究。 | [Link](https://github.com/OpenBMB/ChatDev) |
+| 类别 | 代表性工具 | 核心特点 / 简介 |
+| :--- | :--- | :--- |
+| **自主 Agent 框架** | **AutoGPT (AutoGRM)**, **BabyAGI**, **AgentGPT** | 能够根据目标自动拆解任务、搜索互联网并执行操作。 |
+| **多智能体协作** | **Microsoft AutoGen**, **CrewAI**, **ChatDev**, **MetaGPT** | 支持多个 Agent 扮演不同角色（如 CEO, CTO）协作完成复杂项目。 |
+| **国产 Agent 平台** | **Coze (扣子)**, **腾讯元器**, **讯飞星辰Agent**, **Dify**, **FastGPT** | 零代码或低代码构建 AI 应用，深度集成国内生态。 |
+| **开发者工具** | **GPT Engineer**, **Open Interpreter**, **LangChain**, **LlamaIndex** | 为开发者提供构建 Agent 的底层框架和数据连接能力。 |
+| **其他值得关注** | Agent TARS, Relevance AI, Botpress, Flowise, LangFlow, Semantic Kernel | 涵盖了从企业级自动化到轻量级流程编排的各类工具。 |
 
-<a name="video"></a>
-## 2. 🎬 视频生成与编辑
+<a name="coding"></a>
+## 2. 💻 软件开发与代码助手
 
-| 工具名称 | 核心特点 / 简介 | 典型使用场景 | 官网链接 |
-| :--- | :--- | :--- | :--- |
-| **Sora 2 (OpenAI)** | 顶级真实感视频生成，支持长达一分钟的高清视频，物理世界模拟能力强。 | 电影预告片、概念验证、复杂场景模拟。 | [Link](https://openai.com/sora) |
-| **Kling 2.6 (快手)** | **国产视频生成标杆**。极强的运动一致性和长视频生成能力（支持 2 分钟）。 | 社交媒体短剧、人物特写、长镜头叙事。 | [Link](https://klingai.com/) |
-| **Luma Dream Machine** | 极速生成，提供电影级质感和高度的视觉连贯性。 | 快速原型制作、视觉效果预览、广告素材。 | [Link](https://lumalabs.ai/dream-machine) |
-| **Runway Gen-4** | 专业的视频编辑与生成平台，支持多种控制模式（如运动笔刷、参考图）。 | 独立电影制作、视觉特效、专业视频后期。 | [Link](https://runwayml.com/) |
-| **Hailuo AI (MiniMax)** | **国产黑马**。优秀的语义理解和视频质量，支持复杂的动作指令。 | 创意短片、高动态场景生成。 | [Link](https://www.hailuoai.com/) |
-| **HeyGen** | 顶级 AI 数字人、口型同步和视频翻译，支持多国语言克隆。 | 企业培训、营销视频、虚拟主播。 | [Link](https://www.heygen.com/) |
+| 类别 | 代表性工具 | 核心特点 / 简介 |
+| :--- | :--- | :--- |
+| **AI 原生 IDE** | **Trae**, **Cursor**, **Windsurf** | 深度集成 AI 的下一代编辑器，支持项目级理解和自动重构。 |
+| **国产编程助手** | **通义灵码**, **代码小浣熊**, **CodeGeeX 4**, **Qoder** | 针对中文语境和国内开发环境优化的插件，支持多种主流 IDE。 |
+| **行业标准插件** | **GitHub Copilot**, **Amazon CodeWhisperer**, **Tabnine** | 极高的补全准确率，支持几乎所有主流编程语言。 |
+| **代码模型 (LLM)** | **DeepSeek-Coder**, **CodeLlama**, **StarCoder 2**, **WizardCoder** | 专门为编程训练的大模型，可用于自建工具或 API 集成。 |
+| **自动化与评审** | **CodeRabbit**, **Sourcery**, **AI Code Reviewer** | 自动进行代码审查、重构建议和性能优化。 |
 
 <a name="3d"></a>
 ## 3. 🧱 3D 建模与资产
 
-| 工具名称 | 核心特点 / 简介 | 典型使用场景 | 官网链接 |
-| :--- | :--- | :--- | :--- |
-| **yvo3d** | **专业级 3D 资产生成**。支持 4K 纹理生成和 PBR 材质，生成速度极快。 | 游戏资产、电影级 3D 模型、高精度纹理。 | [Link](https://yvo3d.com/) |
-| **Rodin (Hyper3D)** | 极高质量的几何结构和拓扑，支持 Text/Image-to-3D。 | 游戏资产、工业设计原型、高精度 3D 打印。 | [Link](https://hyperhuman.top/rodin) |
-| **Meshy** | 快速原型制作和纹理生成，提供用户友好的界面。 | 概念艺术、快速迭代 3D 资产、游戏占位符。 | [Link](https://www.meshy.ai/) |
-| **Tripo AI** | 极速 3D 模型生成，强调生成效率。 | 虚拟现实（VR）环境构建、快速场景填充。 | [Link](https://www.tripoai.com/) |
+| 类别 | 代表性工具 | 核心特点 / 简介 |
+| :--- | :--- | :--- |
+| **高精度建模** | **yvo3d**, **Rodin**, **Trellis 2**, **RoboNeo** | 支持 4K 纹理、PBR 材质和极高质量的几何拓扑。 |
+| **国产 3D 突破** | **腾讯混元3D**, **Tripo AI** | 极速生成 3D 资产，支持 Text/Image-to-3D。 |
+| **扫描与重建** | **Luma AI**, **Polycam**, **RealityCapture**, **Meshroom** | 基于 NeRF 或摄影测量技术，将现实世界物体转化为 3D 模型。 |
+| **专业软件集成** | **Adobe Substance 3D**, **Blender AI**, **Unreal Engine AI** | 将 AI 能力注入传统 3D 工作流，加速纹理和场景构建。 |
+| **其他工具** | 3DFY.ai, Wonder Dynamics, NeRFStudio, Point-E, DreamFusion | 涵盖了从点云生成到视频动作捕捉的各类 AI 3D 技术。 |
 
-<a name="coding"></a>
-## 4. 💻 软件开发与代码助手
+<a name="video"></a>
+## 4. 🎬 视频生成与编辑
 
-| 工具名称 | 核心特点 / 简介 | 典型使用场景 | 官网链接 |
-| :--- | :--- | :--- | :--- |
-| **Trae** | **字节跳动出品**。全能 AI IDE，支持自适应学习和全流程自动化开发。 | 10x 效率开发、全栈应用构建。 | [Link](https://www.trae.ai/) |
-| **通义灵码 (Lingma)** | **阿里云出品**。深度集成 VS Code/JetBrains，支持代码补全、单元测试生成。 | 国产开发者首选、企业级代码辅助。 | [Link](https://lingma.aliyun.com/) |
-| **Cursor** | AI 原生 IDE，深度集成 LLM，支持项目级问答、代码重构和调试。 | 复杂项目开发、代码理解、技术栈学习。 | [Link](https://www.cursor.com/) |
-| **Windsurf (Codeium)** | 下一代 AI IDE，具备强大的 Agent 能力，专注于全流程自动化。 | 自动化测试、DevOps 流程优化、全栈开发。 | [Link](https://codeium.com/windsurf) |
-| **GitHub Copilot** | 行业标准，提供行级代码补全和函数建议，支持多种 IDE。 | 日常编码效率提升、重复性代码生成。 | [Link](https://github.com/features/copilot) |
-| **DeepSeek Code** | **国产之光**。极高性价比的代码模型，支持多种编程语言。 | 开发者自建工具、API 集成。 | [Link](https://www.deepseek.com/) |
+| 类别 | 代表性工具 | 核心特点 / 简介 |
+| :--- | :--- | :--- |
+| **顶级生成模型** | **Sora 2**, **Runway Gen-3**, **Luma Dream Machine**, **Google Veo** | 代表了当前视频生成的最高画质和物理模拟水平。 |
+| **国产视频之光** | **可灵AI (Kling)**, **即梦AI**, **海螺AI**, **Vidu AI** | 在运动一致性和长视频生成（支持 2 分钟+）上具有极强竞争力。 |
+| **数字人与翻译** | **HeyGen**, **Synthesia**, **D-ID**, **DeepBrain AI** | 顶级口型同步、视频翻译和虚拟主播生成。 |
+| **智能剪辑与后期** | **Descript**, **CapCut (剪映) AI**, **Adobe Firefly Video**, **InVideo** | 像编辑文档一样编辑视频，自动添加字幕、转场和特效。 |
+| **动画与动作捕捉** | **Cascadeur**, **Rokoko**, **DeepMotion**, **Character Creator** | AI 辅助的物理级动画制作和高精度动作捕捉。 |
+
+<a name="llm"></a>
+## 5. 🧠 全能助手与大模型
+
+| 类别 | 代表性工具 | 核心特点 / 简介 |
+| :--- | :--- | :--- |
+| **国产最强推理** | **DeepSeek R1**, **Kimi (Moonshot)**, **智谱清言 4.0** | 极高的逻辑推理能力，支持超长上下文和深度思考模式。 |
+| **全球顶尖模型** | **GPT-4o**, **Claude 3.5 Sonnet**, **Gemini 1.5 Pro** | 综合能力最强的多模态模型，擅长复杂指令遵循和创意写作。 |
+| **国产全能生态** | **通义千问**, **文心一言**, **豆包**, **讯飞星火**, **腾讯混元** | 深度集成搜索、办公、娱乐等各类生活与工作场景。 |
+| **开源与轻量化** | **Llama 3**, **Mistral**, **Phi 3**, **Yi**, **Qwen** | 优秀的开源模型，适合本地部署和特定任务微调。 |
 
 <a name="uiux"></a>
-## 5. 🎨 UI/UX 设计与前端
+## 6. 🎨 UI/UX 设计与前端
 
 | 工具名称 | 核心特点 / 简介 | 典型使用场景 | 官网链接 |
 | :--- | :--- | :--- | :--- |
 | **v0.dev (Vercel)** | 顶级 AI 生成 UI 代码（React/Tailwind），直接输出可复制粘贴的组件。 | 快速构建 Web 应用界面、组件库开发。 | [Link](https://v0.dev/) |
 | **Figma AI** | Figma 原生 AI 助手，辅助设计流程、组件生成和设计规范检查。 | UI/UX 设计师工作流优化、设计系统构建。 | [Link](https://www.figma.com/ai/) |
 | **Framer AI** | 提示词直接生成可发布的网站，专注于响应式设计和动画。 | 个人作品集、营销落地页、快速网站搭建。 | [Link](https://www.framer.com/ai/) |
+| **Visily** | 快速原型设计，支持截图、草图转为可编辑的 UI 界面。 | 需求分析阶段的原型展示、旧系统重构。 | [Link](https://www.visily.ai/) |
 
 <a name="music"></a>
-## 6. 🎵 音乐与音频创作
+## 7. 🎵 音乐与音频创作
 
 | 工具名称 | 核心特点 / 简介 | 典型使用场景 | 官网链接 |
 | :--- | :--- | :--- | :--- |
@@ -87,7 +95,7 @@
 | **ElevenLabs** | 顶级的语音合成、声音克隆和音效生成，声音自然度极高。 | 有声读物、游戏配音、多语言内容本地化。 | [Link](https://elevenlabs.io/) |
 
 <a name="image"></a>
-## 7. 🖼️ 图像生成与编辑
+## 8. 🖼️ 图像生成与编辑
 
 | 工具名称 | 核心特点 / 简介 | 典型使用场景 | 官网链接 |
 | :--- | :--- | :--- | :--- |
@@ -96,22 +104,15 @@
 | **DALL-E 3 (OpenAI)** | 极强的语义理解，能够精确地将复杂提示词转化为图像。 | 故事板、内容营销、ChatGPT 内嵌图像生成。 | [Link](https://openai.com/dall-e-3) |
 
 <a name="productivity"></a>
-## 8. 💼 生产力与全能助手
+## 9. 💼 生产力与办公效率
 
-| 工具名称 | 核心特点 / 简介 | 典型使用场景 | 官网链接 |
-| :--- | :--- | :--- | :--- |
-| **DeepSeek-V3** | **国产最强推理模型**。极高性价比，支持深度思考模式，逻辑推理极强。 | 复杂问题解决、代码编写、学术研究。 | [Link](https://www.deepseek.com/) |
-| **Kimi (Moonshot AI)** | **国产长文本之王**。支持超长上下文处理，擅长阅读长文档、网页分析。 | 研报分析、长文总结、深度搜索。 | [Link](https://www.kimi.com/) |
-| **智谱清言 (Zhipu AI)** | **国产全能助手**。基于 GLM-4，支持多模态、Agent 插件、长文本。 | 创意写作、日常助手、企业级定制。 | [Link](https://chatglm.cn/) |
-| **Perplexity AI** | AI 搜索与调研的首选，提供带引年的权威答案。 | 学术研究、市场调研、快速事实核查。 | [Link](https://www.perplexity.ai/) |
-
-<a name="marketing"></a>
-## 9. 📈 营销与内容创作
-
-| 工具名称 | 核心特点 / 简介 | 典型使用场景 | 官网链接 |
-| :--- | :--- | :--- | :--- |
-| **Jasper** | 企业级 AI 营销文案创作，支持品牌声调和风格定制。 | 博客文章、社交媒体文案、广告词。 | [Link](https://www.jasper.ai/) |
-| **Copy.ai** | 自动化营销工作流与文案生成，提供多种模板。 | 邮件营销、产品描述、销售信函。 | [Link](https://www.copy.ai/) |
+| 类别 | 代表性工具 | 核心特点 / 简介 |
+| :--- | :--- | :--- |
+| **AI 搜索与调研** | **Perplexity**, **Genspark**, **Felo**, **SearchGPT** | 实时联网搜索，提供带引用的权威答案，告别传统搜索。 |
+| **PPT 与演示** | **Gamma**, **Tome**, **Beautiful.ai**, **SlidesAI** | 提示词生成精美 PPT，自动排版和配图。 |
+| **笔记与知识库** | **Notion AI**, **NotebookLM**, **Obsidian AI**, **FlowUs** | 深度集成在笔记中的 AI，支持总结、续写和知识图谱分析。 |
+| **会议与协作** | **Fireflies.ai**, **Otter.ai**, **飞书妙记**, **钉钉 AI** | 自动记录会议、转录文字并生成待办事项。 |
+| **思维导图与白板** | **GitMind**, **Whimsical**, **Miro AI**, **XMind AI** | 自动生成思维导图，辅助头脑风暴和逻辑梳理。 |
 
 <a name="research"></a>
 ## 10. 📚 教育与科研
@@ -120,6 +121,7 @@
 | :--- | :--- | :--- | :--- |
 | **Consensus** | AI 驱动的科学研究搜索引擎，快速从学术论文中提取结论。 | 学术研究、论文写作、文献综述。 | [Link](https://consensus.app/) |
 | **SciSpace** | 科研论文阅读神器，支持 AI 解释公式、图表和复杂概念。 | 论文精读、学术调研。 | [Link](https://typeset.io/) |
+| **Elicit** | AI 科研助手，自动分析论文并总结核心发现。 | 文献回顾、数据提取。 | [Link](https://elicit.org/) |
 
 <a name="game"></a>
 ## 11. 🎮 游戏开发
@@ -128,6 +130,7 @@
 | :--- | :--- | :--- | :--- |
 | **Inworld AI** | AI 驱动的 NPC 行为与对话，创造更具沉浸感的角色。 | 游戏角色设计、对话系统、剧情互动。 | [Link](https://inworld.ai/) |
 | **Rosebud AI** | 提示词生成游戏，支持快速原型和资产生成。 | 独立游戏开发、游戏概念验证。 | [Link](https://www.rosebud.ai/) |
+| **Scenario** | 专注于游戏美术风格一致性生成，确保所有资产风格统一。 | 游戏美术资产批量生成、风格化。 | [Link](https://www.scenario.com/) |
 
 <a name="vertical"></a>
 ## 12. ⚖️ 法律、医疗与垂直行业

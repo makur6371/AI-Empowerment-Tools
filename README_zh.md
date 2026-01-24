@@ -6,7 +6,7 @@
 
 ## Language / 语言
 
-[English (英文)](./README.md) | [中文 (当前)](./README_zh.md)
+[English](./README.md) | [中文 (当前)](./README_zh.md) | [日本語](./README_ja.md) | [한국어](./README_ko.md) | [Español](./README_es.md) | [Français](./README_fr.md)
 
 ---
 
@@ -132,7 +132,7 @@
 
 | 工具名称 (点击跳转官网) | 核心特点 / 简介 | 典型使用场景 |
 | :--- | :--- | :--- |
-| [Inworld AI](https://inworld.ai/) | AI 驱动的 NPC 行为与对话，创造更具沉浸感的角色。 | 游戏角色设计、对话系统、剧情互动。 |
+| [Inworld AI](https://inworld.ai/) | AI 驱动的 NPC 行为与对话，创造更具沉浸感的角色。 | 游戏角色设计、对话系统、情节互动。 |
 | [Rosebud AI](https://www.rosebud.ai/) | 提示词生成游戏，支持快速原型和资产生成。 | 独立游戏开发、游戏概念验证。 |
 | [Scenario](https://www.scenario.com/) | 专注于游戏美术风格一致性生成，确保所有资产风格统一。 | 游戏美术资产批量生成、风格化。 |
 

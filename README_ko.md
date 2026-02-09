@@ -1,5 +1,16 @@
 # AI Tools Hub - 글로벌 AI 권한 부여 도구 선택
 
+## 🌐 언어 선택 | Languages | 语言 | 言語 | Idiomas | Langues
+
+- [🇬🇧 English](./README.md)
+- [🇨🇳 中文](./README_zh.md)
+- [🇯🇵 日本語](./README_ja.md)
+- [🇰🇷 한국어](./README_ko.md)
+- [🇪🇸 Español](./README_es.md)
+- [🇫🇷 Français](./README_fr.md)
+
+---
+
 ## 🌐 라이브 웹사이트
 
 **[👉 AI Tools Hub 웹사이트를 방문하려면 여기를 클릭](https://3000-is9tnqs4atnbxtloiqahq-35c838d4.us2.manus.computer)**

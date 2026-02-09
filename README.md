@@ -1,5 +1,16 @@
 # AI Tools Hub - Global AI Empowerment Tools Selection
 
+## 🌐 Languages | 语言 | 言語 | 언어 | Idiomas | Langues
+
+- [🇬🇧 English](./README.md)
+- [🇨🇳 中文](./README_zh.md)
+- [🇯🇵 日本語](./README_ja.md)
+- [🇰🇷 한국어](./README_ko.md)
+- [🇪🇸 Español](./README_es.md)
+- [🇫🇷 Français](./README_fr.md)
+
+---
+
 ## 🌐 Live Website
 
 **[👉 Click here to visit AI Tools Hub website](https://3000-is9tnqs4atnbxtloiqahq-35c838d4.us2.manus.computer)**

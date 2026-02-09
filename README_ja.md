@@ -1,5 +1,16 @@
 # AI Tools Hub - グローバル AI エンパワーメント ツール セレクション
 
+## 🌐 言語選択 | Languages | 语言 | 언어 | Idiomas | Langues
+
+- [🇬🇧 English](./README.md)
+- [🇨🇳 中文](./README_zh.md)
+- [🇯🇵 日本語](./README_ja.md)
+- [🇰🇷 한국어](./README_ko.md)
+- [🇪🇸 Español](./README_es.md)
+- [🇫🇷 Français](./README_fr.md)
+
+---
+
 ## 🌐 ライブ ウェブサイト
 
 **[👉 AI Tools Hub ウェブサイトにアクセスするにはここをクリック](https://3000-is9tnqs4atnbxtloiqahq-35c838d4.us2.manus.computer)**
